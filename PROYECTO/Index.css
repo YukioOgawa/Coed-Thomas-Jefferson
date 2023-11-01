@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.izquierdo {
+    background-color: rgb(15, 15, 124);
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+}
+
+span {
+    color: white;
+}
+
+.Profesores {
+    color: rgb(192, 192, 192);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.derecha {
+    background: url(Imágenes/ComplejoJefferson.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+#pantalla-dividida {
+    display: flex;
+}
+
+h1 {
+    font-size: 50px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-block: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 75%;
+    text-align: justify;
+    margin: auto;
+    color: white;
+    margin-block: 40px;
+    margin-block-start: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.entrar {
+    border: 3px solid white;
+    padding: 20px;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.entrar:hover {
+    color: rgb(255, 204, 0);
+    font-size: 18px;
+    border: 4px solid white;
+}
+
+.link {
+    text-align: center;
+}

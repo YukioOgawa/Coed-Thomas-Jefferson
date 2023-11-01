@@ -1,0 +1,113 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  padding: 20px;
+}
+
+h2 {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 70px;
+  width: 70;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+nav a:hover {
+  color:rgb(255, 204, 0);
+  font-size: 17.5px;
+}
+
+.boton {
+  text-align: center;
+}
+
+p {
+  padding: 0px;
+  width: 85%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  margin-left: 40px;
+  text-align: justify;
+  line-height: 150%;
+}
+
+h1 {
+  margin-top: 40px;
+  text-align: Center;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  
+
+.Especial {
+    border-radius: 15%;
+    box-shadow: 0px 0px black;
+    width: 400px;
+    height: auto;
+}
+
+.tabla-centrada {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: separate;
+    border-spacing: 15;
+}
+  
+.tabla-centrada td {
+    border: 2px solid rgb(221, 221, 221);
+    background-color: rgb(221, 221, 221);
+    margin: 20px;
+    padding: 10px;
+}
+
+.entrar {
+  border: 3px solid black;
+  padding: 15px;
+  color: black;
+  border-radius: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.entrar:hover {
+  color: rgb(255, 204, 0);
+  font-size: 18px;
+  border: 4px solid black;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
